@@ -1,0 +1,67 @@
+
+ { "records" :            [{
+                            "groupid": 1,
+                            "groupname": "pdp 123",
+                            "university": "NEU",
+                            "department": "CS",
+                            "course": "PDP",
+                            "term": "S-2017",
+                            "maxstrength": 100,
+                            "seatsleft": 50,
+                            "createdby": "guri",
+                            "posts": [{
+                                    "id": 1,
+                                    "title": "Welcome !!",
+                                    "content": "hi there welcome to the new class",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harsh"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "hello !!",
+                                    "content": "hello",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harshpret"
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "lets get started !!",
+                                    "content": "first post ",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harshdeep"
+                                }]
+                        },
+                        {
+                            "groupid": 2,
+                            "groupname": "algo 123",
+                            "university": "HD",
+                            "department": "IS",
+                            "course": "ALGO",
+                            "term": "SP-2017",
+                            "maxstrength": 80,
+                            "seatsleft": 35,
+                            "createdby": "harsh",
+                            "posts": [{
+                                    "id": 1,
+                                    "title": "Welcome here!!",
+                                    "content": "hi there welcome to the new class",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harsh"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "hello there !!",
+                                    "content": "hello",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harshpreet"
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "lets get started yo yo!!",
+                                    "content": "first post ",
+                                    "posteddate": "09/23/2014",
+                                    "postedby": "harshdeep"
+                                }]
+                        }
+                ]
+        }

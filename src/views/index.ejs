@@ -1,0 +1,16 @@
+<head>
+<%- include('header') -%>
+<script type="text/javascript">
+    window.initialdata = <%- JSON.stringify(url) -%>
+</script>
+</head>
+<body id="">
+<div class="body-header">
+    <div class="main-logo">
+    <%= siteTitle%>
+    </div>
+</div>
+<div id="root">
+<%- content -%>
+</div>
+<%- include('footer') -%>
