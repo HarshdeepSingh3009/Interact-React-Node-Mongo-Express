@@ -4,12 +4,12 @@ class Post extends React.Component{
     render(){
      return(<div>
             <div>
-                <p>{this.props.title}</p>
+                {this.props.title}
             </div>
             <div>
-                <div className="left-div"> Posted By: <a>{this.props.postedby}</a></div>
+                <div className="leftDate"> Posted By: <a>{this.props.postedby}</a></div>
                 
-                <div className="right-div">
+                <div className="rightDate">
                      Posted on: {this.props.posteddate}
                 </div>
             </div>
@@ -18,12 +18,12 @@ class Post extends React.Component{
     }
 }
 
-Post.proptypes= {
+Post.propTypes= {
     id: React.PropTypes.number.isRequired,
     posteddate : React.PropTypes.string.isRequired,
     postedby: React.PropTypes.string.isRequired,
     title:React.PropTypes.string.isRequired,
     content:React.PropTypes.string.isRequired,
-    key : React.PropTypes.number.isRequired
+    key : React.PropTypes.number
 }
 export default Post;

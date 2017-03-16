@@ -27,7 +27,7 @@ server.use(bodyparser.json())
 server.use(multer);
 
 
-server.locals.siteTitle = "DISCUSS";
+server.locals.siteTitle = "INTERACT";
 server.listen(config.port,config.host,()=>{
 console.info('Express listening on port ', config.port);
 });

@@ -9,3 +9,13 @@ export const fetchDiscussions = (userId) =>{
             );
 
 }
+
+export const fetchPostContent = (postId) =>{
+      return  axios.get(`/home/discussions/Post/${postId}`)
+            .then(resp => resp.data.records)
+            .catch(error =>{
+                console.error(error);
+            }                
+            );
+
+}

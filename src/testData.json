@@ -14,7 +14,26 @@
                                     "title": "Welcome !!",
                                     "content": "hi there welcome to the new class",
                                     "posteddate": "09/23/2014",
-                                    "postedby": "harsh"
+                                    "postedby": "harsh",
+                                    "comments": [{
+                                        "c_id" : 2123,
+                                        "body": " thank you !!!",
+                                        "postedon": "09/24/2014",
+                                        "postedby":"guri"
+                                    },
+                                    {
+                                        "c_id" : 454,
+                                        "body": " thank you hahahahab !!!",
+                                        "postedon": "09/24/2014",
+                                        "postedby":"james"
+                                    },
+                                    {
+                                        "c_id" : 4564,
+                                        "body": " thank you huhauhuahahua!!!",
+                                        "postedon": "09/25/2014",
+                                        "postedby":"harpreet"
+                                    }                                    
+                                    ]
                                 },
                                 {
                                     "id": 2,

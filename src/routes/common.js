@@ -20,6 +20,14 @@ router.get('/home/discussions/:userId', (req , res) =>{
     }
          res.send(data);
 });
+
+router.get('/home/discussions/Post/:postId', (req,res) => {
+    if (req.params.postId.length === 0)
+    {
+         res.send({});
+    }
+         res.send(data);
+});
 router.get('/getProfileImage', (req, res) => {
       mongoose.connect(config.mongodbUri);
                 var conn = mongoose.connection;

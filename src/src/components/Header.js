@@ -4,7 +4,7 @@ const Header = ()=>{
     return(
         <div className="body-header">
          <div className="main-logo">
-            Interact
+             Interact
     </div>
 </div>
     );

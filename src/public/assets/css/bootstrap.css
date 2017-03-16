@@ -5780,11 +5780,14 @@ button.close {
 }
 /* Manual chages made from here*/
 .post-grid{
-  width: 22%;
+  width: 24%;
   float: left;
   overflow-x: hidden;
   overflow-y: auto;
   height:100%;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius:4px
 
 }
 
@@ -5803,15 +5806,7 @@ button.close {
   
 }
 
-.right-div{
-text-align: right;
-}
-
-.left-div{
-text-align: left;
-float: left;
-}
-.left-div > a {
+.leftDate > a {
   cursor: pointer;
 }
 
@@ -5840,4 +5835,139 @@ img.show-image-preview{
 width:400px;height:350px;
 }
 
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.success-msg {
+    text-align:center;
+    text-decoration-color:green;
+    text-decoration-line:underline;
+}
+
+.comment{
+  border-width: 1px;
+  border-top-style: solid;
+
+}
+
+#leftdiv{
+    width:29%;
+    margin-left: 1%;
+    margin-top:1%;
+    float: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 90%;
+    border-width:0.5%;  
+    border-style:solid; 
+}
+#rightdiv{
+    width:95%;
+    margin-right:0.4%;
+    float: left;
+    height: 100%;
+    border-radius:4px;
+    background-color: #F8F8F8;
+    margin-left:0.2%;
+}
+.postdiv{
+    width: 100%;
+     border-bottom:2px;
+     border-top:0px;
+     border-left:0px;
+     border-right:0px;
+     border-style:solid; 
+}
+.innerpostdiv{
+     width: 100%;
+     overflow: hidden;  
+}
+.lowerinnerpostdiv{
+    width: 100%;
+     overflow: hidden;  
+}
+#title{
+    width:100%;
+    font-size: 16px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#upperdiv{
+    width: 100%;
+     border-style:ridge;
+     max-height:35%;
+     border-radius:3px;
+     margin-bottom: 0.5%;
+     overflow-y:auto;
+}
+#dateholder{
+     width: 100%;
+     border-bottom:0px;
+     border-top:0px;
+     border-left:0px;
+     border-right:0px;
+     height: 20px;
+     padding-left:5px;
+}
+#content{
+    height: auto;
+    width: 100%;
+    overflow-y: auto;
+    padding-left:5px;
+
+}
+#lowerdiv{
+    width: 100%;
+    height: 30%;
+    border-radius:3px;
+    border-style:ridge;
+}
+#centerdiv{
+    width: 100%;
+    min-height:35%;
+    max-height:45%;
+    overflow-y:scroll;
+     border-style:ridge;
+     border-radius:4px;
+     margin-bottom: 0.5%;
+}
+textarea {
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+     resize: none;
+     max-width: 100%;
+     height:auto;
+     min-height: 60%;
+}
+.postcontent{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    border-bottom-style: ridge;
+}
+
+.leftDate{
+width:50%;
+float: left;
+text-align: left;
+}
+.rightDate{
+width: 50%;
+float:right;
+text-align: right;
+}
+
+#centerdiv > ul {
+margin-top:0%;
+}
+
+div.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*# sourceMappingURL=bootstrap.css.map */
